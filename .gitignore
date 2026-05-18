@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment and local credentials
+.env
+.env.*
+kaggle.json
+
+# Data and generated ML artifacts
+data/
+models/
+mlruns/
+mlartifacts/
+mlflow.db
+*.pkl
+*.joblib
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Codex/local workspace metadata
+.codex
